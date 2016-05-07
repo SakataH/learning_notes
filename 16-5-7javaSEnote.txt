@@ -1,0 +1,42 @@
+2016年5月7日 天气晴 
+1.java中的基本数据类型
+  整数类型:
+    byte:字节    大小8  范围(-128~127) 这个是整数类型的哦               默认值=0        封装类 Byte
+    short:短整型 大小16 范围(-32768~32767) 这个是短的整数类型           默认值=0        封装类 Short
+    int:整型     大小32 范围(-2147483648~2147483647) 常用的整数类型     默认值=0        封装类 Integer
+    long:长整型  大小64 范围(-9233372036854477808~9233372036854477807) 默认值=0        封装类 Long
+  浮点类型:
+    float:浮点型  大小32 范围(-3.40292347E+38~3.40292347E+38)          默认值=0.0f     封装类 Float
+    double:双精度 大小64 范围(比浮点更大更精确)                         默认值=0.0d     封装类 Double
+  字符类型:
+    char:字符型  大小16 范围('\u0000~\uffff')                          默认值='\u0000' 封装类 Character
+  布尔类型:
+    boolean:布尔型 大小1 范围(true/false)                              默认值=false    封装类 Boolean
+2.回顾java基本数据类型的默认值
+  整数类型:
+    byte: 默认=0
+    short: 默认=0
+    int: 默认=0
+    long: 默认=0
+    整数数据类型默认都=0
+  浮点类型:
+    float: 默认=0.0f
+    double: 默认=0.0d
+  字符类型:
+    char: 默认='\u0000'
+  布尔类型:
+    boolean: 默认=false
+3.回顾java基本数据类型的封装类
+  整数类型:
+    byte--->Byte
+    short--->Short
+    int--->Integer(是Integer)
+    long--->Long
+  浮点类型:
+    float--->Float
+    double--->Double
+  字符类型:
+    char--->Character(是Character)
+  布尔类型:
+    boolean--->Boolean
+4.java基本数据类型之间的转换(略)
